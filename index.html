@@ -41,10 +41,12 @@
     white-space:nowrap}
   .bx.reco .reco-badge{display:block}
 
-  .tpl{display:inline-flex;align-items:center;gap:9px;margin-top:18px;background:rgba(255,255,255,.14);
-    color:#fff;text-decoration:none;font-weight:700;font-size:15px;padding:11px 22px;border-radius:11px;
-    border:1px solid rgba(255,255,255,.55)}
-  .tpl:hover{background:rgba(255,255,255,.22)}
+  .tplwrap{margin-top:18px;display:flex;flex-direction:column;align-items:center;gap:5px}
+  .tpl{display:inline-flex;align-items:center;gap:9px;background:#107C41;
+    color:#fff;text-decoration:none;font-weight:800;font-size:15px;padding:11px 22px;border-radius:11px;
+    box-shadow:0 6px 16px rgba(0,0,0,.25)}
+  .tpl:hover{filter:brightness(1.07)}
+  .upd{font-size:11px;opacity:.8}
 
   .note{margin-top:20px;font-size:13px;opacity:.92;line-height:1.95;text-align:right}
   .note b{color:#ffe08a}
@@ -81,6 +83,7 @@
         <div class="bn">Google Chrome</div>
         <div class="bnote">من متجر كروم الرسمي · تحديث تلقائي</div>
         <a class="go" href="https://chromewebstore.google.com/detail/rayatauto-%E2%80%94-%D9%85%D9%8F%D8%AF%D8%AE%D9%90%D9%84-%D8%A7%D9%84%D8%B4%D9%8F%D9%91%D8%B9/dpihkndbaonpfajfgddbgbjcklgjgchl" target="_blank" rel="noopener">⬇ تثبيت</a>
+        <div class="upd">الإصدار 1.0.0 · آخر تحديث 2026-06-15</div>
       </div>
 
       <div class="bx firefox" data-b="firefox">
@@ -99,11 +102,23 @@
         <div class="bn">Mozilla Firefox</div>
         <div class="bnote">موقّعة من Mozilla · تحديث تلقائي · Firefox 140 فأحدث</div>
         <a class="go" href="https://github.com/myalsh2030/rayatauto-firefox/releases/latest/download/rayatauto-latest.xpi">⬇ تثبيت</a>
+        <div class="upd">الإصدار 1.0.0 · آخر تحديث 2026-06-15</div>
       </div>
 
     </div>
 
-    <a class="tpl" href="RayatAuto-data-template.xlsx" download>⬇ قالب إدخال البيانات (Excel)</a>
+    <div class="tplwrap">
+      <a class="tpl" href="RayatAuto-data-template.xlsx" download>
+        <svg viewBox="0 0 24 24" width="19" height="19" aria-hidden="true" style="flex:0 0 auto">
+          <rect x="3.5" y="3" width="17" height="18" rx="2.2" fill="#fff"/>
+          <path d="M3.5 8.5h17M3.5 13h17M3.5 17.5h17" stroke="#BFE3CC" stroke-width="1"/>
+          <path d="M9 3v18M14.5 3v18" stroke="#BFE3CC" stroke-width="1"/>
+          <path d="M7.6 9.6l3.3 4.8M10.9 9.6l-3.3 4.8" stroke="#107C41" stroke-width="1.8" stroke-linecap="round"/>
+        </svg>
+        قالب إدخال البيانات (Excel)
+      </a>
+      <div class="upd">آخر تحديث: 2026-06-15</div>
+    </div>
 
     <div class="note">
       <b>بعد الضغط على «تثبيت»:</b> وافق على «إضافة / Add» في نافذة المتصفّح. ✅ النسختان <b>تتحدّثان تلقائياً</b> — لا حاجة لإعادة التثبيت.
