@@ -15,12 +15,17 @@
     color:#fff;display:flex;align-items:center;justify-content:center;padding:24px;
     background:linear-gradient(135deg,#2f7cff 0%,#1f6feb 45%,#163e9e 100%)}
   .card{background:rgba(255,255,255,.10);border:1px solid rgba(255,255,255,.25);border-radius:18px;
-    max-width:960px;width:100%;padding:34px 30px;text-align:center;backdrop-filter:blur(6px);
+    max-width:1120px;width:100%;padding:34px 30px;text-align:center;backdrop-filter:blur(6px);
     box-shadow:0 24px 60px rgba(0,0,0,.30)}
   img.logo{width:96px;height:96px;border-radius:22px;box-shadow:0 8px 22px rgba(0,0,0,.35)}
   h1{margin:16px 0 4px;font-size:30px;font-weight:900}
   .sub{opacity:.92;font-size:16px;margin-bottom:20px}
   .pick{font-size:15px;font-weight:800;margin:4px 0 14px;opacity:.95}
+  .svcs{margin:-6px auto 18px;width:100%;background:rgba(255,255,255,.08);
+    border:1px solid rgba(255,255,255,.2);border-radius:12px;padding:12px 16px;
+    display:flex;flex-direction:column;gap:7px}
+  .svc-line{font-size:12.5px;line-height:1.9;opacity:.95}
+  .svc-line b{color:#ffe08a;font-weight:800}
 
   .browsers{display:flex;gap:16px;flex-wrap:wrap;justify-content:center}
   .bx{position:relative;flex:1 1 260px;min-width:220px;max-width:370px;background:rgba(255,255,255,.12);
@@ -79,7 +84,12 @@
   <div class="card">
     <img class="logo" src="icon128.png" alt="RayatAuto">
     <h1>RayatAuto</h1>
-    <div class="sub">أتمتة إدخال وتعديل الشُّعب في رايات (Banner SSASECT)</div>
+    <div class="sub">أتمتة رايات: إدخال وتعديل الشُّعب التدريبية، وتسجيل المقررات للمتدربين (SSASECT / SFAREGS)</div>
+
+    <div class="svcs">
+      <div class="svc-line"><b>الشُّعب التدريبية:</b> إضافة شُعب بمواعيدها ومدرّبيها · تعديل المدرّبين والمواعيد · إلغاء / إخفاء / إظهار / تكرار شعبة · تخصيص الشُّعب وإلغاؤه</div>
+      <div class="svc-line"><b>تسجيل المتدربين:</b> تسجيل وحذف مقررات · حذف جميع مقررات متدرب · تصفير الحد الأدنى · تعديل تسجيل (إضافة + حذف معاً)</div>
+    </div>
 
     <div class="pick">اختر إضافة متصفّحك:</div>
     <div class="browsers" id="browsers">
